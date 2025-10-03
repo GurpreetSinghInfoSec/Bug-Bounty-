@@ -40,7 +40,7 @@ All this happens in milliseconds, allowing your web page to load seamlessly.
 
 ##  Focusing on the DNS Resolver
 
-The **DNS Resolver** is the part of the process you have direct control over, which is particularly relevant in security and performance optimization.
+The **DNS Resolver** is the part of the process you have direct control over, which is particularly relevant in security and performance optimization.A DNS resolver is a server that translates domain or subdomain names into IP addresses, and in subdomain enumeration tools it is crucial because it validates which discovered subdomains actually exist and are live.
 
 ### Why the Resolver Matters
 
