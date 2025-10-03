@@ -1,4 +1,6 @@
 # ASN Reconnaissance: Mapping the Internet's Attack Surface
+<img width="1280" height="720" alt="Autonomous Systems" src="https://github.com/user-attachments/assets/67a91621-c823-4a87-9b85-738b53dffce5" />
+
 
 You use the internet every day, but have you ever thought about how data finds its way? It's not magic; it's a massive, organized system built on the **Autonomous System (AS)** and its unique ID, the **Autonomous System Number (ASN)**.
 
