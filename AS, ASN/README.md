@@ -57,5 +57,4 @@ You don't need fancy paid software to start. Here are the go-to tools:
 To find all IP ranges for a target with ASN **AS12345** and then immediately scan those IPs for active web ports (80 and 443) using `naabu`:
 
 ```bash
-# Finds IP ranges from ASN, then pipes (sends) the list to the naabu port scanner
-asnmap -asn AS12345 | naabu -p 80,443 -silent
+asnmap -asn AS12345 
