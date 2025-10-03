@@ -1,4 +1,4 @@
-# 🌐 The Domain Name System (DNS): The Internet's Translator
+# The Domain Name System (DNS): The Internet's Translator
 <img width="1000" height="563" alt="image" src="https://github.com/user-attachments/assets/fffc958e-f769-4ed8-bd9b-436b71b31c4b" />
 
 Imagine trying to call every one of your friends, but instead of using their names, you had to remember a long, complex phone number for each one. That’s what the internet would be like without **DNS (Domain Name System)**.
@@ -13,23 +13,23 @@ The DNS is the translator. It takes the easy-to-remember name (the domain name) 
 
 When you type a website name, a process called **DNS resolution** begins, involving four specialized servers.
 
-### 1. DNS Resolver (Recursive Resolver) 🎯
+### 1. DNS Resolver (Recursive Resolver) 
 
 * **Role:** This is the **first stop** and the most crucial player from the user's perspective. It acts like a librarian—it takes your request, manages the entire search process, and goes out to find the answer.
 * **Who Runs It:** Usually run by your **Internet Service Provider (ISP)** or a **public service** like Google DNS (`8.8.8.8`) or Cloudflare (`1.1.1.1`).
 * **Action:** It queries the other three servers on your behalf until it finds the IP address, caches the result for future speed, and finally returns the answer to your web browser.
 
-### 2. Root Name Server 🌲
+### 2. Root Name Server 
 
 * **Role:** The starting point of the search.
 * **Action:** It doesn’t know the full answer, but it knows where to look next—it points the resolver toward the correct Top-Level Domain (TLD) server.
 
-### 3. TLD Name Server (Top-Level Domain) 🏷️
+### 3. TLD Name Server (Top-Level Domain) 
 
 * **Role:** This server manages all names ending in the same top-level part, like **`.com`**, **`.org`**, or **`.net`**.
 * **Action:** It points the resolver to the final server that has the actual record.
 
-### 4. Authoritative Name Server 👑
+### 4. Authoritative Name Server 
 
 * **Role:** This is the server that has the **master copy** of the DNS records for the specific domain you requested (e.g., `google.com`).
 * **Action:** It provides the IP address back to the Resolver, which then gives it back to your browser.
@@ -38,7 +38,7 @@ All this happens in milliseconds, allowing your web page to load seamlessly.
 
 ---
 
-## 🛑 Focusing on the DNS Resolver
+##  Focusing on the DNS Resolver
 
 The **DNS Resolver** is the part of the process you have direct control over, which is particularly relevant in security and performance optimization.
 
@@ -58,7 +58,7 @@ The **DNS Resolver** is the part of the process you have direct control over, wh
 
 ---
 
-## 🗃️ DNS Records: The Instructions
+##  DNS Records: The Instructions
 
 A DNS record is a simple instruction that provides information about a domain name. Every domain needs records to work correctly.
 
