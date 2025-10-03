@@ -1,0 +1,2 @@
+# Set default to auto-detect text files and normalize line endings to LF
+* text=auto
