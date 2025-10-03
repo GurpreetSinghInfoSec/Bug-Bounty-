@@ -1,4 +1,4 @@
-# 💰 Bug Bounty: Get Paid to Hack (Ethically!) 🛡️
+#  Bug Bounty: Get Paid to Hack (Ethically!) 
 <img width="1000" height="563" alt="image" src="https://github.com/user-attachments/assets/6a0bab2e-6c5b-4692-b4fe-59da6083a3c9" />
 
 
@@ -42,8 +42,7 @@ A company first sets up its program, often on a platform like **HackerOne** or *
 
 ### Step 2: Hacking (Ethically!)
 
-The bug bounty hunter begins testing the targets listed in the scope. You use your knowledge and tools to search for weaknesses, thinking like an attacker but acting ethically.
-
+This is where the bug bounty hunter starts testing the targets listed in the scope. You use your knowledge and tools to search for weaknesses, thinking like an attacker but acting ethically.
 Common vulnerabilities sought include:
 
 * **Cross-Site Scripting (XSS):** Injecting malicious code into a website that runs in another user’s browser.
@@ -72,7 +71,7 @@ The company’s security team reviews your report—a process called **Triage**.
 
 ---
 
-## 🚀 How to Get Started as a Bug Bounty Hunter
+## How to Get Started as a Bug Bounty Hunter
 
 You don't need a fancy degree, but you absolutely need knowledge, persistence, and patience.
 
@@ -90,7 +89,7 @@ Focus on learning the most common types of flaws. A great starting point is the 
 
 ### 3. Practice on Safe Labs
 
-**⚠️ NEVER practice on a live website that doesn’t have a bug bounty program—that is illegal hacking.**
+** NEVER practice on a live website that doesn’t have a bug bounty program—that is illegal hacking.**
 
 Instead, use safe, dedicated platforms:
 
@@ -106,4 +105,4 @@ Start with programs that have a wide scope or low-severity bugs. Look for **Vuln
 
 Go to bug bounty platforms and read the **Hall of Fame** or **resolved reports** that other hackers submitted and got paid for. This teaches you how the professionals think, what companies prioritize, and what a high-quality report looks like.
 
-Bug bounty hunting is competitive, but it’s a deeply rewarding career path that helps make the internet safer for everyone! Good luck on your ethical hacking journey. 💻✨
+Bug bounty hunting is competitive, but it’s a deeply rewarding career path that helps make the internet safer for everyone! Good luck on your ethical hacking journey.
